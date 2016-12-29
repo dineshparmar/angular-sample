@@ -1,0 +1,39 @@
+.border-top{
+    border-top: 1px solid black;
+}
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+#sidebar{
+    background-color: black;
+    /*height: 550px;*/
+}
+.height-auto{
+    height:auto;
+}
+.height-80vh{
+    height: 80vh;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: darkslategray !important;
+    color: darkseagreen;
+    border-right: 3px solid lightskyblue;
+}
+.active{
+    background-color: darkslategray !important;
+    color: darkseagreen;
+    border-right: 3px solid lightskyblue;
+}
+/*.mlr-20{
+    margin-left: 20px;
+    margin-right: 20px;
+}*/
+.wrapper{
+    width: 99%;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.padding0{
+    padding: 0;
+}

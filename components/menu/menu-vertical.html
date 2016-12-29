@@ -1,0 +1,22 @@
+<div  class="navbar-default sidebar" role="navigation">
+    <div id="sidebar" class="sidebar-nav navbar-collapse" id="menu" data-menu style="padding: 0">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-menu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="sidebar-menu" style="padding-right: 0;padding-left: 0">
+            <ul class="nav in ">
+                <li>
+                    <a ui-sref=".dashboard" ng-class="getClass('/dashboard')"><i class="glyphicon glyphicon-home"></i><span class="hidden-xs"> Dashboard</span></a>
+                </li>
+                <li>
+                    <a ui-sref=".search" ng-class="getClass('/search')"><i class="glyphicon glyphicon-search"></i> <span class="hidden-xs"> Search</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -28,6 +28,12 @@
                                 controller: 'SearchController',
                                 authenticate: true
                             })
+                            .state('menu.dropdown', {
+                                url: '/dropdown',
+                                templateUrl: 'components/dropdown/dropdown.html',
+                                controller: 'DropdownController',
+                                authenticate: true
+                            })
                             .state('login', {
                                 url: '/login',
                                 templateUrl: 'components/login/login.html',

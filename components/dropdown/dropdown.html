@@ -1,0 +1,41 @@
+<section>
+    <h1>
+        Drop-down
+    </h1>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Drop-down Sample
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div dropdown output="selectedData" input="data" type="text" class="multiple-selected cursor-pointer form-control multiselect  multiselect-icon" multiple="multiple" role="multiselect">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div dropdown output="selectedData1" input="data1" type="text" class="multiple-selected cursor-pointer form-control multiselect  multiselect-icon" multiple="multiple" role="multiselect">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div dropdown output="selectedData2" input="data2" type="text" class="multiple-selected cursor-pointer form-control multiselect  multiselect-icon" multiple="multiple" role="multiselect">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            {{selectedData}}
+                        </div>
+                        <div class="col-lg-3">
+                            {{selectedData1}}
+                        </div>
+                        <div class="col-lg-3">
+                            {{selectedData2}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
